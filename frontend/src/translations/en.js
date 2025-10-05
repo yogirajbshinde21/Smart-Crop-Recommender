@@ -252,6 +252,12 @@ export const en = {
   "dashboard.features.nutrient.desc": "Predict precise NPK and micronutrient requirements for optimal crop growth.",
   "dashboard.features.comparison.title": "Crop Comparison",
   "dashboard.features.comparison.desc": "Compare multiple crops side-by-side with economic and risk analysis.",
+  "dashboard.features.district.title": "District Insights",
+  "dashboard.features.district.desc": "Explore district-specific agricultural data, suitable crops, and farming patterns.",
+  "dashboard.features.weather.title": "Weather Planning",
+  "dashboard.features.weather.desc": "Get smart crop recommendations based on season, soil, and irrigation availability.",
+  "dashboard.features.economic.title": "Economic Analysis",
+  "dashboard.features.economic.desc": "Calculate profitability, ROI, and cost-benefit analysis for your crops.",
 
   // Dashboard - System Info
   "dashboard.system.title": "System Information",

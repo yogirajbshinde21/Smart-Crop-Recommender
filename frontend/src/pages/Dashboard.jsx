@@ -18,7 +18,10 @@ import {
   WbSunny,
   TrendingUp,
   Dashboard as DashboardIcon,
-  Science
+  Science,
+  Place,
+  Cloud,
+  AttachMoney
 } from '@mui/icons-material';
 import { useApp } from '../context/AppContext';
 import { getStatistics } from '../services/api';
@@ -273,6 +276,33 @@ const Dashboard = () => {
               icon={<TrendingUp />}
               path="/crop-comparison"
               color="#f57c00"
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <FeatureCard
+              title={<Translate>dashboard.features.district.title</Translate>}
+              description={<Translate>dashboard.features.district.desc</Translate>}
+              icon={<Place />}
+              path="/district-insights"
+              color="#9c27b0"
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <FeatureCard
+              title={<Translate>dashboard.features.weather.title</Translate>}
+              description={<Translate>dashboard.features.weather.desc</Translate>}
+              icon={<Cloud />}
+              path="/weather-planning"
+              color="#00acc1"
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <FeatureCard
+              title={<Translate>dashboard.features.economic.title</Translate>}
+              description={<Translate>dashboard.features.economic.desc</Translate>}
+              icon={<AttachMoney />}
+              path="/economic-analysis"
+              color="#43a047"
             />
           </Grid>
         </Grid>

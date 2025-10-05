@@ -252,6 +252,12 @@ export const mr = {
   "dashboard.features.nutrient.desc": "इष्टतम पीक वाढीसाठी अचूक NPK आणि सूक्ष्म पोषक आवश्यकतांचा अंदाज घ्या।",
   "dashboard.features.comparison.title": "पीक तुलना",
   "dashboard.features.comparison.desc": "आर्थिक आणि जोखीम विश्लेषणासह अनेक पिकांची शेजारी तुलना करा।",
+  "dashboard.features.district.title": "जिल्हा अंतर्दृष्टी",
+  "dashboard.features.district.desc": "जिल्हा-विशिष्ट कृषी डेटा, योग्य पिके आणि शेती पद्धतींचा शोध घ्या।",
+  "dashboard.features.weather.title": "हवामान नियोजन",
+  "dashboard.features.weather.desc": "हंगाम, माती आणि सिंचन उपलब्धतेवर आधारित स्मार्ट पीक शिफारसी मिळवा।",
+  "dashboard.features.economic.title": "आर्थिक विश्लेषण",
+  "dashboard.features.economic.desc": "आपल्या पिकांसाठी नफा, ROI आणि खर्च-लाभ विश्लेषण मोजा।",
 
   // Dashboard - System Info
   "dashboard.system.title": "प्रणाली माहिती",
