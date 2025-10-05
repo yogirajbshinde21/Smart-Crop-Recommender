@@ -1,0 +1,430 @@
+District,Soil_Type,Crop_Name,N_kg_ha,P2O5_kg_ha,K2O_kg_ha,Zn_kg_ha,S_kg_ha,Recommended_pH,Turbidity_NTU,Water_Temp_C,Weather,Fertilizer
+Ahmednagar,Black,Sugarcane,231.1,106.3,184.2,6.28,42.0,7.1,3.4,28.9,Moderate Rainfall,Complex Fertilizer
+Ahmednagar,Black,Sugarcane,234.3,88.6,187.3,8.25,32.7,7.9,6.7,34.5,Post-Monsoon,NPK 19:19:19
+Ahmednagar,Black,Wheat,99.1,64.1,63.4,2.59,17.5,8.2,11.9,31.3,Pre-Monsoon,DAP
+Ahmednagar,Black,Wheat,109.4,50.0,64.1,3.47,20.2,7.7,8.7,34.6,Winter,Urea
+Ahmednagar,Clay,Sugarcane,265.4,85.3,175.0,6.2,37.6,6.7,3.2,30.5,Moderate Rainfall,Complex Fertilizer
+Ahmednagar,Clay,Sugarcane,218.4,107.9,194.0,8.26,40.5,8.0,3.8,33.6,Post-Monsoon,Urea
+Ahmednagar,Clay,Sorghum,75.6,44.7,48.0,2.64,14.3,6.9,10.8,31.9,Pre-Monsoon,DAP
+Ahmednagar,Clay,Wheat,97.9,52.0,57.0,4.28,15.9,8.0,10.9,33.5,Winter,Urea
+Ahmednagar,Red,Sorghum,90.1,58.7,43.3,3.68,16.2,6.2,3.8,30.2,Moderate Rainfall,Superphosphate
+Ahmednagar,Red,Sugarcane,222.8,127.6,170.3,7.87,36.5,6.7,9.7,26.0,Post-Monsoon,NPK 19:19:19
+Ahmednagar,Red,Wheat,118.3,67.7,57.8,3.9,24.9,5.6,5.5,27.5,Pre-Monsoon,NPK 12:32:16
+Ahmednagar,Red,Sorghum,102.3,61.2,51.7,2.77,17.9,6.0,7.5,26.6,Winter,Superphosphate
+Akola,Black,Cotton,105.5,42.6,64.8,3.25,20.4,8.4,3.5,32.5,Moderate Rainfall,DAP
+Akola,Black,Soybean,34.0,61.1,51.7,5.02,17.3,7.3,8.9,33.9,Monsoon,DAP
+Akola,Black,Cotton,101.8,39.7,49.6,4.09,18.3,8.1,7.3,30.3,Post-Monsoon,DAP
+Akola,Black,Cotton,137.7,60.2,61.6,2.85,18.1,8.5,11.3,27.1,Winter,Urea
+Akola,Clay,Cotton,135.1,56.7,47.7,3.91,20.1,7.2,8.5,33.5,Moderate Rainfall,Urea
+Akola,Clay,Soybean,31.2,63.6,39.6,3.78,24.2,7.3,9.7,31.0,Monsoon,NPK 12:32:16
+Akola,Clay,Cotton,133.4,43.0,49.7,4.15,20.1,7.6,11.9,28.3,Post-Monsoon,Urea
+Akola,Clay,Soybean,36.1,72.1,46.2,3.18,25.2,6.6,4.5,30.3,Winter,DAP
+Akola,Red,Sorghum,98.3,48.7,50.7,5.49,21.8,5.9,9.3,27.8,Moderate Rainfall,MOP
+Akola,Red,Soybean,40.6,89.7,56.7,5.51,24.9,5.9,8.2,32.2,Monsoon,NPK 12:32:16
+Akola,Red,Cotton,144.4,72.9,53.3,4.56,22.3,6.8,3.1,33.8,Post-Monsoon,DAP
+Akola,Red,Soybean,43.7,80.9,49.0,4.42,27.9,5.9,4.1,30.2,Winter,Superphosphate
+Amravati,Black,Soybean,38.0,67.1,49.5,3.19,21.0,7.4,6.3,34.5,Moderate Rainfall,Superphosphate
+Amravati,Black,Cotton,102.4,48.8,47.9,4.16,15.8,7.5,4.5,29.6,Monsoon,Urea
+Amravati,Black,Soybean,24.2,75.1,52.2,4.63,19.7,8.4,8.7,26.5,Post-Monsoon,NPK 12:32:16
+Amravati,Black,Soybean,35.9,79.1,49.3,3.32,22.9,7.6,9.0,31.5,Winter,Superphosphate
+Amravati,Clay,Soybean,37.4,71.7,41.0,4.04,22.6,8.0,11.6,28.0,Moderate Rainfall,NPK 12:32:16
+Amravati,Clay,Pigeon Pea,25.4,61.7,27.8,2.5,18.1,7.5,11.8,27.1,Monsoon,Vermicompost
+Amravati,Clay,Soybean,40.0,73.9,46.5,3.21,17.5,7.4,9.0,27.5,Post-Monsoon,DAP
+Amravati,Clay,Soybean,36.2,62.1,48.0,4.32,19.5,7.4,8.0,32.1,Winter,DAP
+Amravati,Red,Pigeon Pea,30.8,56.9,29.1,4.4,21.6,6.9,6.4,29.4,Moderate Rainfall,Ammonium Sulphate
+Amravati,Red,Wheat,118.6,65.6,57.6,4.76,19.1,5.7,8.6,32.2,Monsoon,Urea
+Amravati,Red,Pigeon Pea,34.2,67.8,36.4,3.6,20.8,6.1,10.1,28.7,Post-Monsoon,Superphosphate
+Amravati,Red,Pigeon Pea,32.8,62.8,36.8,3.84,17.5,6.9,7.3,27.6,Winter,Complex Fertilizer
+Aurangabad,Black,Sorghum,81.2,40.3,52.3,4.37,13.9,8.3,14.4,36.5,Dry,MOP
+Aurangabad,Black,Sorghum,89.2,42.4,55.9,5.41,19.5,8.0,16.1,36.6,Post-Monsoon,Superphosphate
+Aurangabad,Black,Sorghum,81.7,46.2,45.7,3.61,10.4,7.6,12.8,30.1,Semi-Arid,Ammonium Sulphate
+Aurangabad,Black,Sorghum,87.3,45.7,49.5,2.55,19.1,7.5,11.3,32.3,Summer,Urea
+Aurangabad,Red,Sorghum,99.1,60.8,42.5,4.35,13.5,6.2,16.4,36.0,Dry,DAP
+Aurangabad,Red,Soybean,33.6,94.5,57.5,4.33,17.7,5.7,19.4,36.0,Post-Monsoon,NPK 12:32:16
+Aurangabad,Red,Cotton,138.9,59.7,59.2,4.88,27.0,5.7,18.4,37.9,Semi-Arid,Complex Fertilizer
+Aurangabad,Red,Soybean,36.9,88.0,42.0,3.18,26.5,5.7,18.2,29.4,Summer,DAP
+Aurangabad,Sandy,Sorghum,103.3,48.4,58.4,2.56,13.1,6.2,18.3,30.4,Dry,Superphosphate
+Aurangabad,Sandy,Bajra,80.9,42.4,38.5,2.83,15.6,7.3,9.5,34.5,Post-Monsoon,Ammonium Sulphate
+Aurangabad,Sandy,Cotton,180.4,50.5,65.6,4.23,22.7,6.3,12.6,37.8,Semi-Arid,Complex Fertilizer
+Aurangabad,Sandy,Cotton,167.6,48.2,70.6,3.62,21.0,7.2,14.5,36.6,Summer,Complex Fertilizer
+Beed,Black,Sorghum,85.4,42.6,50.6,4.93,18.2,8.1,15.8,34.6,Dry,Vermicompost
+Beed,Black,Sorghum,73.7,41.2,53.1,2.73,14.7,8.0,19.0,37.2,Post-Monsoon,Complex Fertilizer
+Beed,Black,Cotton,132.0,58.2,46.5,2.86,22.7,7.6,8.9,33.7,Semi-Arid,NPK 19:19:19
+Beed,Black,Cotton,116.3,42.0,66.2,4.36,20.3,7.6,16.1,31.9,Summer,Complex Fertilizer
+Beed,Red,Sorghum,95.5,56.8,48.1,2.66,14.3,6.5,12.7,33.2,Dry,Urea
+Beed,Red,Cotton,128.1,70.3,64.9,4.62,19.5,5.7,19.1,37.9,Post-Monsoon,NPK 19:19:19
+Beed,Red,Sorghum,96.0,53.6,45.9,3.03,17.3,6.9,18.2,36.2,Semi-Arid,Organic Compost
+Beed,Red,Cotton,127.5,58.8,69.4,3.05,18.5,6.8,11.8,32.0,Summer,DAP
+Beed,Sandy,Sorghum,102.8,47.6,52.6,2.72,20.0,6.3,10.5,37.9,Dry,Superphosphate
+Beed,Sandy,Bajra,85.6,35.9,40.7,4.69,15.8,6.9,16.4,28.2,Post-Monsoon,NPK 12:32:16
+Beed,Sandy,Sorghum,104.0,51.0,46.2,4.15,12.9,6.1,19.7,30.6,Semi-Arid,DAP
+Beed,Sandy,Sorghum,119.2,56.3,58.3,2.46,12.3,6.1,17.9,29.7,Summer,Ammonium Sulphate
+Bhandara,Black,Rice,95.8,48.1,63.1,3.49,11.9,8.1,8.5,30.6,Moderate Rainfall,DAP
+Bhandara,Black,Rice,92.8,54.7,65.5,3.69,18.1,7.0,3.1,30.1,Monsoon,Urea
+Bhandara,Black,Rice,96.8,54.7,57.9,3.59,14.7,7.7,6.4,28.2,Post-Monsoon,NPK 12:32:16
+Bhandara,Black,Rice,103.3,55.5,63.1,3.48,14.5,7.1,6.6,28.2,Winter,Urea
+Bhandara,Clay,Rice,110.4,60.9,59.5,4.67,17.9,7.4,9.9,30.0,Moderate Rainfall,NPK 12:32:16
+Bhandara,Clay,Rice,118.3,48.6,57.4,4.84,18.1,6.6,5.9,32.7,Monsoon,NPK 12:32:16
+Bhandara,Clay,Rice,109.9,49.5,55.0,4.23,19.0,6.6,9.6,30.7,Post-Monsoon,NPK 12:32:16
+Bhandara,Clay,Rice,101.3,59.7,48.8,3.5,21.3,7.9,4.5,28.5,Winter,Urea
+Bhandara,Red,Rice,102.8,66.9,65.2,3.36,20.7,6.6,4.3,27.9,Moderate Rainfall,DAP
+Bhandara,Red,Soybean,37.2,89.6,49.2,2.77,15.8,6.6,5.3,26.6,Monsoon,Superphosphate
+Bhandara,Red,Rice,116.6,66.9,57.0,3.99,15.3,6.2,11.8,27.7,Post-Monsoon,DAP
+Bhandara,Red,Rice,115.5,66.7,55.2,3.09,15.6,6.5,7.1,28.9,Winter,Urea
+Buldhana,Black,Cotton,130.7,46.9,53.0,4.8,19.6,7.4,6.3,27.2,Moderate Rainfall,NPK 19:19:19
+Buldhana,Black,Cotton,120.1,51.8,59.5,4.98,20.3,7.7,4.8,33.3,Monsoon,Urea
+Buldhana,Black,Cotton,83.8,40.6,59.4,2.64,27.4,7.7,5.8,34.1,Post-Monsoon,DAP
+Buldhana,Black,Cotton,131.6,53.0,58.7,5.34,18.0,8.3,10.5,27.3,Winter,NPK 19:19:19
+Buldhana,Clay,Sorghum,80.4,40.5,36.6,4.85,11.5,7.1,11.7,32.3,Moderate Rainfall,Complex Fertilizer
+Buldhana,Clay,Soybean,37.2,77.3,51.3,4.8,20.8,7.5,10.4,30.6,Monsoon,NPK 12:32:16
+Buldhana,Clay,Cotton,126.2,60.7,62.6,3.25,15.7,7.7,6.5,28.5,Post-Monsoon,DAP
+Buldhana,Clay,Soybean,35.7,79.1,52.0,3.77,18.7,7.7,11.6,33.8,Winter,DAP
+Buldhana,Red,Bajra,86.7,42.5,37.4,4.93,13.0,5.8,10.3,29.8,Moderate Rainfall,Complex Fertilizer
+Buldhana,Red,Bajra,68.0,35.2,38.1,5.04,16.0,5.9,4.5,29.4,Monsoon,Ammonium Sulphate
+Buldhana,Red,Bajra,85.3,39.7,37.9,4.08,14.1,7.0,7.3,27.4,Post-Monsoon,Urea
+Buldhana,Red,Sorghum,98.0,52.0,44.4,3.05,12.2,6.5,11.9,32.2,Winter,Ammonium Sulphate
+Chandrapur,Black,Rice,111.9,59.8,53.4,2.99,13.6,7.6,7.4,34.0,Moderate Rainfall,DAP
+Chandrapur,Black,Cotton,116.9,54.2,56.6,3.17,24.1,7.2,10.2,29.4,Monsoon,DAP
+Chandrapur,Black,Cotton,109.4,46.8,54.7,3.1,18.1,7.9,7.3,29.4,Post-Monsoon,Complex Fertilizer
+Chandrapur,Black,Cotton,121.8,56.2,64.5,2.96,19.1,8.4,3.8,29.9,Winter,Urea
+Chandrapur,Clay,Rice,97.0,53.7,63.6,3.33,10.4,7.7,4.5,29.2,Moderate Rainfall,Urea
+Chandrapur,Clay,Rice,102.0,54.6,49.5,4.16,12.1,6.8,7.1,26.4,Monsoon,Urea
+Chandrapur,Clay,Rice,111.8,49.7,56.1,5.52,18.9,6.9,3.0,31.2,Post-Monsoon,DAP
+Chandrapur,Clay,Cotton,105.0,44.1,53.6,3.92,16.8,6.6,8.0,31.3,Winter,DAP
+Chandrapur,Red,Rice,116.5,68.6,56.2,4.97,14.2,5.8,7.8,29.6,Moderate Rainfall,NPK 12:32:16
+Chandrapur,Red,Rice,129.9,75.9,66.7,4.46,10.7,6.6,10.3,29.1,Monsoon,Urea
+Chandrapur,Red,Rice,128.0,68.5,60.7,2.57,14.7,6.8,6.9,31.4,Post-Monsoon,NPK 12:32:16
+Chandrapur,Red,Soybean,40.0,86.8,53.3,4.91,22.3,5.9,10.3,30.2,Winter,NPK 12:32:16
+Dhule,Alluvial,Cotton,125.2,35.9,43.4,2.68,24.3,6.9,5.7,30.8,Moderate Rainfall,NPK 19:19:19
+Dhule,Alluvial,Wheat,92.6,50.7,56.7,3.61,25.4,7.5,3.7,28.8,Monsoon,Urea
+Dhule,Alluvial,Cotton,140.8,47.3,44.9,3.36,17.7,7.4,4.1,27.7,Post-Monsoon,NPK 19:19:19
+Dhule,Alluvial,Cotton,121.8,47.5,50.7,3.6,17.2,6.7,7.5,31.8,Winter,DAP
+Dhule,Black,Cotton,110.4,43.7,56.3,4.65,20.7,8.3,11.0,33.3,Moderate Rainfall,NPK 19:19:19
+Dhule,Black,Cotton,101.1,55.9,60.2,3.63,20.9,8.3,11.5,26.8,Monsoon,Urea
+Dhule,Black,Cotton,92.9,53.6,59.1,5.47,19.3,7.9,9.5,32.8,Post-Monsoon,Complex Fertilizer
+Dhule,Black,Cotton,95.6,50.9,42.2,3.15,26.0,7.7,7.5,34.8,Winter,NPK 19:19:19
+Dhule,Red,Bajra,81.3,36.8,38.5,4.75,10.9,6.6,4.3,29.6,Moderate Rainfall,Ammonium Sulphate
+Dhule,Red,Cotton,119.1,52.1,56.2,3.12,22.1,6.1,11.6,32.7,Monsoon,Complex Fertilizer
+Dhule,Red,Wheat,131.1,60.7,67.4,2.74,21.9,6.4,6.7,33.1,Post-Monsoon,DAP
+Dhule,Red,Wheat,118.2,74.9,59.0,4.98,20.3,5.8,8.9,30.5,Winter,NPK 12:32:16
+Gadchiroli,Black,Rice,95.0,48.2,55.6,3.43,12.2,8.4,11.9,26.2,Moderate Rainfall,NPK 12:32:16
+Gadchiroli,Black,Rice,108.3,62.7,57.2,4.7,19.6,7.7,5.6,28.6,Monsoon,Urea
+Gadchiroli,Black,Rice,103.6,54.8,52.2,4.68,15.4,8.1,6.6,34.4,Post-Monsoon,Urea
+Gadchiroli,Black,Rice,102.4,49.2,66.9,4.13,11.0,7.7,9.3,27.4,Winter,NPK 12:32:16
+Gadchiroli,Clay,Wheat,123.5,61.4,60.0,4.05,15.4,6.6,10.8,32.9,Moderate Rainfall,Urea
+Gadchiroli,Clay,Rice,118.8,54.3,59.3,3.25,16.6,6.6,10.7,28.0,Monsoon,DAP
+Gadchiroli,Clay,Rice,121.4,51.9,60.1,3.63,17.2,7.3,5.7,32.7,Post-Monsoon,DAP
+Gadchiroli,Clay,Wheat,128.7,53.6,57.2,3.57,19.1,6.5,10.1,29.0,Winter,Urea
+Gadchiroli,Red,Rice,132.7,63.7,56.4,3.16,16.4,7.0,3.8,28.9,Moderate Rainfall,NPK 12:32:16
+Gadchiroli,Red,Rice,131.5,66.0,62.4,3.87,15.0,6.2,3.7,32.1,Monsoon,Urea
+Gadchiroli,Red,Rice,118.8,63.9,62.6,3.13,20.2,6.3,7.1,31.8,Post-Monsoon,DAP
+Gadchiroli,Red,Rice,131.2,61.0,58.1,4.02,15.8,5.5,3.1,28.0,Winter,NPK 12:32:16
+Gondia,Black,Rice,109.2,59.2,65.5,3.69,17.3,7.0,7.0,32.5,Moderate Rainfall,NPK 12:32:16
+Gondia,Black,Rice,94.0,46.6,55.1,3.38,14.4,8.2,10.5,32.6,Monsoon,DAP
+Gondia,Black,Rice,97.6,58.2,55.1,3.03,20.2,7.2,7.4,30.4,Post-Monsoon,Urea
+Gondia,Black,Rice,88.1,55.9,65.3,2.4,12.9,8.1,9.2,30.1,Winter,DAP
+Gondia,Clay,Rice,107.1,49.0,54.3,3.45,14.9,7.7,9.7,27.7,Moderate Rainfall,DAP
+Gondia,Clay,Soybean,38.0,67.2,48.5,4.01,26.1,6.7,3.1,26.2,Monsoon,NPK 12:32:16
+Gondia,Clay,Wheat,107.0,57.2,52.5,4.13,18.9,6.5,5.5,30.2,Post-Monsoon,DAP
+Gondia,Clay,Rice,123.1,52.1,53.6,3.18,18.1,7.4,5.5,32.2,Winter,DAP
+Gondia,Red,Wheat,118.9,61.7,59.4,3.68,25.2,6.1,6.2,30.8,Moderate Rainfall,NPK 12:32:16
+Gondia,Red,Rice,123.7,59.1,63.4,5.38,10.8,5.8,11.2,31.3,Monsoon,NPK 12:32:16
+Gondia,Red,Rice,128.1,62.7,68.5,5.38,13.7,6.1,3.7,30.5,Post-Monsoon,Urea
+Gondia,Red,Wheat,124.1,63.1,61.4,3.71,21.2,5.8,8.4,32.3,Winter,Urea
+Hingoli,Black,Cotton,109.9,53.5,61.7,5.2,20.0,7.4,9.4,35.1,Dry,DAP
+Hingoli,Black,Cotton,129.1,46.7,60.8,5.94,14.5,7.6,16.8,36.0,Post-Monsoon,Complex Fertilizer
+Hingoli,Black,Sorghum,71.9,45.4,54.1,3.9,21.1,7.3,13.7,31.9,Semi-Arid,Vermicompost
+Hingoli,Black,Sorghum,77.6,44.9,46.8,3.9,16.0,7.6,9.6,31.2,Summer,DAP
+Hingoli,Red,Bajra,72.0,39.8,42.5,3.02,12.2,5.6,8.4,28.6,Dry,MOP
+Hingoli,Red,Chickpea,27.3,48.4,29.6,4.48,19.9,6.2,18.0,33.9,Post-Monsoon,Superphosphate
+Hingoli,Red,Pigeon Pea,32.9,68.4,33.0,4.76,13.8,5.7,12.8,33.6,Semi-Arid,Ammonium Sulphate
+Hingoli,Red,Sorghum,100.1,58.6,40.7,4.28,22.0,5.7,15.7,31.7,Summer,Complex Fertilizer
+Hingoli,Sandy,Cotton,149.6,54.3,54.7,3.18,22.0,7.2,19.7,29.6,Dry,DAP
+Hingoli,Sandy,Bajra,90.1,34.1,42.5,4.93,11.6,6.1,15.2,35.7,Post-Monsoon,Urea
+Hingoli,Sandy,Pigeon Pea,31.4,56.4,32.4,4.43,22.1,7.0,16.8,29.1,Semi-Arid,Ammonium Sulphate
+Hingoli,Sandy,Cotton,161.9,45.6,69.5,3.67,20.4,7.3,8.4,33.2,Summer,DAP
+Jalgaon,Alluvial,Cotton,134.9,50.8,59.3,4.11,21.9,7.2,7.7,33.8,Moderate Rainfall,DAP
+Jalgaon,Alluvial,Cotton,114.5,57.1,46.8,2.7,19.3,6.5,3.7,32.0,Monsoon,NPK 19:19:19
+Jalgaon,Alluvial,Wheat,125.7,45.3,57.8,3.87,18.1,6.6,10.2,29.0,Post-Monsoon,NPK 12:32:16
+Jalgaon,Alluvial,Cotton,125.8,39.1,49.8,3.16,16.2,6.7,11.9,31.7,Winter,DAP
+Jalgaon,Black,Cotton,142.8,55.4,54.6,2.97,23.5,7.1,6.2,32.4,Moderate Rainfall,NPK 19:19:19
+Jalgaon,Black,Cotton,103.3,60.8,53.2,4.21,21.3,7.2,9.1,27.2,Monsoon,Complex Fertilizer
+Jalgaon,Black,Banana,179.3,146.9,275.4,10.55,27.7,8.4,7.4,27.8,Post-Monsoon,Urea
+Jalgaon,Black,Banana,216.5,109.2,323.5,9.02,28.9,8.1,4.2,27.7,Winter,NPK 12:32:16
+Jalgaon,Red,Cotton,171.5,65.3,41.8,4.79,23.2,5.6,7.3,32.0,Moderate Rainfall,Complex Fertilizer
+Jalgaon,Red,Banana,238.2,164.1,324.4,7.34,35.5,6.7,6.8,34.6,Monsoon,DAP
+Jalgaon,Red,Cotton,141.0,68.3,47.8,4.97,27.7,5.5,7.3,30.8,Post-Monsoon,Complex Fertilizer
+Jalgaon,Red,Bajra,74.8,41.4,35.3,4.23,16.2,5.6,8.7,31.1,Winter,Ammonium Sulphate
+Jalna,Black,Sorghum,66.0,45.9,44.6,5.61,12.5,7.7,17.3,34.5,Dry,Vermicompost
+Jalna,Black,Cotton,119.6,51.8,47.5,4.4,18.1,7.2,16.9,29.3,Post-Monsoon,Complex Fertilizer
+Jalna,Black,Sorghum,84.0,48.1,43.8,4.35,10.7,7.3,15.2,30.3,Semi-Arid,Organic Compost
+Jalna,Black,Sorghum,89.6,39.5,50.8,3.47,16.7,7.9,16.5,31.5,Summer,DAP
+Jalna,Red,Sorghum,98.7,55.2,52.0,4.33,16.3,5.5,17.5,30.0,Dry,Superphosphate
+Jalna,Red,Bajra,85.2,38.9,44.1,4.75,14.6,5.7,10.0,36.0,Post-Monsoon,DAP
+Jalna,Red,Cotton,120.4,67.3,69.8,4.06,17.7,6.4,8.9,32.6,Semi-Arid,Urea
+Jalna,Red,Bajra,83.0,36.4,41.7,4.27,13.5,5.9,17.3,35.5,Summer,MOP
+Jalna,Sandy,Bajra,96.1,39.1,51.6,2.99,12.3,6.0,11.4,29.2,Dry,Urea
+Jalna,Sandy,Sorghum,93.9,46.5,46.5,4.0,20.9,7.3,19.2,34.3,Post-Monsoon,Organic Compost
+Jalna,Sandy,Cotton,127.9,50.6,55.5,4.32,21.3,7.0,19.1,37.8,Semi-Arid,NPK 19:19:19
+Jalna,Sandy,Bajra,72.2,35.8,46.0,2.91,11.0,7.3,13.8,34.9,Summer,MOP
+Kolhapur,Alluvial,Sugarcane,233.7,90.8,207.1,7.86,38.8,7.3,5.3,29.0,Moderate Rainfall,Urea
+Kolhapur,Alluvial,Wheat,109.0,41.5,60.1,3.38,21.1,6.9,8.6,32.1,Post-Monsoon,DAP
+Kolhapur,Alluvial,Wheat,108.0,49.6,54.5,2.93,20.5,7.0,11.0,28.5,Pre-Monsoon,DAP
+Kolhapur,Alluvial,Sorghum,87.5,40.6,50.7,4.1,17.8,6.6,9.6,27.1,Winter,Urea
+Kolhapur,Black,Sugarcane,178.8,87.4,230.3,10.53,35.0,7.6,6.3,27.7,Moderate Rainfall,NPK 19:19:19
+Kolhapur,Black,Sugarcane,269.4,85.0,213.9,5.79,35.1,8.1,4.2,30.0,Post-Monsoon,DAP
+Kolhapur,Black,Sugarcane,209.4,92.1,221.0,7.33,35.1,8.1,4.1,29.2,Pre-Monsoon,DAP
+Kolhapur,Black,Sugarcane,227.1,78.8,191.8,9.19,28.9,7.4,5.7,27.8,Winter,Complex Fertilizer
+Kolhapur,Red,Sugarcane,269.0,130.2,221.0,6.47,25.8,5.9,7.9,33.4,Moderate Rainfall,DAP
+Kolhapur,Red,Sugarcane,342.1,113.5,198.3,5.49,32.7,6.9,11.9,26.3,Post-Monsoon,DAP
+Kolhapur,Red,Rice,133.4,60.6,68.6,3.59,14.2,6.9,10.0,34.5,Pre-Monsoon,Urea
+Kolhapur,Red,Sorghum,106.6,56.6,48.2,3.17,17.1,5.9,9.9,28.5,Winter,Organic Compost
+Latur,Black,Sorghum,79.2,47.4,55.2,4.05,11.3,7.3,8.1,36.0,Dry,Ammonium Sulphate
+Latur,Black,Sorghum,79.3,39.6,57.1,2.96,14.0,8.3,9.4,33.3,Post-Monsoon,Superphosphate
+Latur,Black,Sorghum,81.0,46.3,44.2,4.45,12.6,7.5,18.0,34.9,Semi-Arid,Superphosphate
+Latur,Black,Sorghum,86.0,42.5,46.9,3.27,15.9,8.3,15.1,30.2,Summer,Ammonium Sulphate
+Latur,Red,Sorghum,87.9,57.3,51.1,5.07,10.8,6.2,12.5,34.9,Dry,Ammonium Sulphate
+Latur,Red,Sorghum,91.3,60.7,42.6,4.38,18.1,6.6,9.7,33.3,Post-Monsoon,Ammonium Sulphate
+Latur,Red,Bajra,72.6,45.4,40.6,4.3,14.0,5.9,19.4,35.0,Semi-Arid,Ammonium Sulphate
+Latur,Red,Cotton,154.4,69.6,58.0,4.82,22.3,6.8,11.6,30.5,Summer,Complex Fertilizer
+Latur,Sandy,Sorghum,111.8,51.8,50.4,3.66,12.9,6.0,8.8,37.1,Dry,Organic Compost
+Latur,Sandy,Cotton,143.4,55.2,72.1,4.83,25.6,7.3,13.1,30.9,Post-Monsoon,Urea
+Latur,Sandy,Bajra,84.3,36.9,47.8,4.17,13.0,6.0,18.8,35.5,Semi-Arid,DAP
+Latur,Sandy,Sorghum,114.1,57.2,58.2,3.92,13.5,6.3,18.2,29.3,Summer,Urea
+Mumbai City,Laterite,Rice,142.1,77.3,62.8,4.45,16.7,5.9,4.3,28.9,Heavy Rainfall,NPK 12:32:16
+Mumbai City,Laterite,Rice,156.8,72.7,66.3,4.44,16.5,5.8,2.1,27.9,Humid,DAP
+Mumbai City,Laterite,Rice,127.6,74.9,57.2,4.54,21.1,6.1,6.6,27.2,Monsoon,NPK 12:32:16
+Mumbai City,Laterite,Rice,129.4,72.8,64.2,4.66,19.1,5.8,4.0,31.3,Post-Monsoon,NPK 12:32:16
+Mumbai City,Red,Rice,103.0,60.1,63.4,3.08,18.1,6.4,4.7,27.4,Heavy Rainfall,DAP
+Mumbai City,Red,Rice,123.1,63.2,63.1,5.07,10.6,7.0,2.1,29.3,Humid,DAP
+Mumbai City,Red,Rice,108.6,56.8,61.2,5.32,13.2,6.4,7.1,27.7,Monsoon,NPK 12:32:16
+Mumbai City,Red,Rice,134.2,61.8,64.2,3.0,17.2,5.8,5.1,27.5,Post-Monsoon,NPK 12:32:16
+Mumbai City,Sandy,Rice,116.4,67.6,67.4,4.6,11.9,7.0,4.2,28.5,Heavy Rainfall,DAP
+Mumbai City,Sandy,Rice,130.5,60.4,61.6,4.04,15.9,6.4,3.8,29.6,Humid,NPK 12:32:16
+Mumbai City,Sandy,Rice,126.6,53.1,63.9,4.08,19.3,7.2,2.1,26.9,Monsoon,Urea
+Mumbai City,Sandy,Rice,134.3,57.4,75.7,4.4,19.3,6.9,2.3,31.7,Post-Monsoon,DAP
+Mumbai Suburban,Laterite,Rice,131.5,72.0,68.3,5.69,12.5,6.4,4.2,28.0,Heavy Rainfall,NPK 12:32:16
+Mumbai Suburban,Laterite,Rice,137.0,71.9,60.0,4.03,15.9,5.7,3.8,30.1,Humid,Urea
+Mumbai Suburban,Laterite,Rice,137.4,74.7,68.8,4.68,13.0,6.3,4.1,30.0,Monsoon,Urea
+Mumbai Suburban,Laterite,Rice,158.5,81.8,55.6,3.81,9.9,5.4,5.6,25.2,Post-Monsoon,DAP
+Mumbai Suburban,Red,Rice,114.0,69.9,59.1,3.96,11.4,6.8,4.2,28.8,Heavy Rainfall,NPK 12:32:16
+Mumbai Suburban,Red,Rice,118.3,62.0,71.0,2.9,15.1,6.3,6.8,27.6,Humid,Urea
+Mumbai Suburban,Red,Rice,120.6,65.3,58.4,3.29,18.3,5.7,6.5,31.6,Monsoon,DAP
+Mumbai Suburban,Red,Rice,121.1,64.6,64.9,3.09,9.2,6.5,4.8,30.7,Post-Monsoon,Urea
+Mumbai Suburban,Sandy,Rice,117.4,57.8,68.8,3.73,13.7,6.5,6.5,27.6,Heavy Rainfall,DAP
+Mumbai Suburban,Sandy,Rice,126.0,62.4,66.2,2.83,11.7,7.0,7.9,28.4,Humid,Urea
+Mumbai Suburban,Sandy,Rice,128.0,62.8,57.0,4.76,18.7,7.4,3.1,25.6,Monsoon,Urea
+Mumbai Suburban,Sandy,Vegetables,153.0,74.8,110.5,3.28,24.1,6.9,2.7,25.2,Post-Monsoon,Ammonium Sulphate
+Nagpur,Black,Cotton,80.8,37.8,67.5,5.7,23.8,7.4,3.1,26.2,Moderate Rainfall,NPK 19:19:19
+Nagpur,Black,Cotton,127.6,47.4,50.8,4.33,28.9,7.3,10.7,28.7,Monsoon,NPK 19:19:19
+Nagpur,Black,Cotton,109.4,58.9,64.1,5.19,25.2,7.2,10.3,32.8,Post-Monsoon,Urea
+Nagpur,Black,Cotton,120.4,56.0,50.5,3.15,23.3,7.5,9.0,28.3,Winter,NPK 19:19:19
+Nagpur,Clay,Sorghum,101.6,44.8,44.9,4.02,16.8,6.6,11.3,30.1,Moderate Rainfall,Urea
+Nagpur,Clay,Soybean,34.9,76.2,49.3,3.85,23.3,7.9,11.6,32.7,Monsoon,DAP
+Nagpur,Clay,Cotton,123.5,49.9,45.6,3.76,17.4,6.8,4.6,31.0,Post-Monsoon,Complex Fertilizer
+Nagpur,Clay,Cotton,115.3,50.0,45.7,3.17,22.4,7.6,9.8,32.7,Winter,NPK 19:19:19
+Nagpur,Red,Cotton,133.6,67.3,59.2,3.16,19.0,6.2,6.9,30.9,Moderate Rainfall,DAP
+Nagpur,Red,Sorghum,103.9,45.0,53.7,3.59,13.2,5.6,5.3,32.5,Monsoon,DAP
+Nagpur,Red,Cotton,118.5,56.6,59.5,3.12,26.3,5.5,9.8,28.5,Post-Monsoon,DAP
+Nagpur,Red,Soybean,39.0,94.0,55.4,3.46,21.2,6.7,11.9,34.5,Winter,DAP
+Nanded,Alluvial,Cotton,113.9,39.5,51.6,2.99,22.1,7.4,16.4,34.6,Dry,NPK 19:19:19
+Nanded,Alluvial,Soybean,33.5,76.9,42.1,3.24,18.1,6.8,10.2,36.9,Post-Monsoon,NPK 12:32:16
+Nanded,Alluvial,Cotton,141.5,43.0,44.8,4.66,25.5,7.3,12.4,30.9,Semi-Arid,Urea
+Nanded,Alluvial,Soybean,41.0,62.6,43.5,5.31,21.1,6.6,15.5,34.8,Summer,NPK 12:32:16
+Nanded,Black,Sorghum,93.3,43.4,50.3,5.58,11.4,7.3,19.2,36.5,Dry,Vermicompost
+Nanded,Black,Cotton,121.2,45.5,68.5,4.35,15.6,7.6,19.8,36.5,Post-Monsoon,NPK 19:19:19
+Nanded,Black,Cotton,93.2,42.6,54.0,3.32,21.4,8.1,17.6,33.9,Semi-Arid,NPK 19:19:19
+Nanded,Black,Cotton,96.8,43.6,47.4,3.01,21.6,8.3,14.4,28.6,Summer,DAP
+Nanded,Red,Sorghum,101.5,60.0,49.8,4.4,15.1,6.1,15.3,35.9,Dry,Complex Fertilizer
+Nanded,Red,Cotton,134.6,70.2,52.9,5.44,25.4,6.5,14.5,32.0,Post-Monsoon,Complex Fertilizer
+Nanded,Red,Sorghum,96.8,58.8,43.9,4.45,17.3,6.0,12.4,28.6,Semi-Arid,Urea
+Nanded,Red,Cotton,134.5,49.7,61.0,4.58,18.8,5.7,11.0,32.9,Summer,Complex Fertilizer
+Nandurbar,Alluvial,Maize,147.3,63.3,47.8,4.29,25.6,6.8,9.0,31.4,Moderate Rainfall,DAP
+Nandurbar,Alluvial,Maize,132.2,64.3,53.8,6.86,26.9,6.8,10.4,34.4,Monsoon,Superphosphate
+Nandurbar,Alluvial,Cotton,140.2,52.1,53.1,3.13,14.0,7.4,8.8,32.6,Post-Monsoon,NPK 19:19:19
+Nandurbar,Alluvial,Pulses,27.1,44.0,30.7,3.39,25.2,7.5,4.7,28.8,Winter,Ammonium Sulphate
+Nandurbar,Black,Cotton,125.7,57.5,46.1,3.96,21.6,8.0,6.3,30.6,Moderate Rainfall,Urea
+Nandurbar,Black,Cotton,135.5,58.6,70.7,3.93,22.7,7.7,5.1,32.9,Monsoon,NPK 19:19:19
+Nandurbar,Black,Cotton,111.9,52.7,57.6,2.9,17.9,7.0,10.2,32.3,Post-Monsoon,Urea
+Nandurbar,Black,Cotton,143.4,47.7,65.8,3.77,24.5,7.8,6.1,26.3,Winter,Complex Fertilizer
+Nandurbar,Red,Cotton,135.5,52.3,50.9,4.34,19.5,6.8,9.5,33.1,Moderate Rainfall,DAP
+Nandurbar,Red,Wheat,120.6,72.2,59.6,2.72,23.4,5.8,6.4,26.6,Monsoon,DAP
+Nandurbar,Red,Cotton,112.3,55.9,69.4,3.67,22.3,6.9,10.0,28.3,Post-Monsoon,NPK 19:19:19
+Nandurbar,Red,Maize,128.8,96.7,46.3,4.28,21.5,5.8,4.1,27.5,Winter,Ammonium Sulphate
+Nashik,Alluvial,Grapes,127.7,51.1,105.9,5.82,22.8,7.3,11.8,29.8,Moderate Rainfall,NPK 19:19:19
+Nashik,Alluvial,Tomato,182.9,83.2,142.4,3.35,20.6,7.1,8.5,26.4,Monsoon,Urea
+Nashik,Alluvial,Grapes,115.6,51.0,142.7,6.69,30.8,6.5,7.5,30.0,Post-Monsoon,Organic Compost
+Nashik,Alluvial,Tomato,157.7,71.4,129.5,3.26,27.1,6.7,4.8,30.7,Winter,Complex Fertilizer
+Nashik,Black,Grapes,145.1,66.0,135.3,10.03,28.5,8.2,5.4,30.8,Moderate Rainfall,Organic Compost
+Nashik,Black,Tomato,184.1,88.3,129.5,3.2,25.7,8.1,4.7,29.4,Monsoon,NPK 12:32:16
+Nashik,Black,Grapes,102.0,66.2,123.5,7.4,22.5,8.0,3.2,34.3,Post-Monsoon,NPK 19:19:19
+Nashik,Black,Onion,142.6,77.3,90.9,3.31,26.0,7.4,5.7,29.6,Winter,DAP
+Nashik,Red,Tomato,212.5,105.5,174.4,3.66,27.2,6.3,9.5,27.4,Moderate Rainfall,Superphosphate
+Nashik,Red,Wheat,133.6,61.7,57.5,2.78,23.4,6.0,7.1,29.3,Monsoon,NPK 12:32:16
+Nashik,Red,Grapes,126.3,64.5,164.6,7.26,25.8,6.3,3.9,30.5,Post-Monsoon,Organic Compost
+Nashik,Red,Grapes,157.7,84.0,142.0,9.98,24.1,6.5,7.1,26.7,Winter,Complex Fertilizer
+Osmanabad,Black,Bajra,65.4,31.7,36.4,3.89,14.2,7.6,12.2,28.5,Dry,MOP
+Osmanabad,Black,Sorghum,77.8,43.6,53.6,5.69,13.0,7.8,10.9,35.0,Post-Monsoon,Ammonium Sulphate
+Osmanabad,Black,Sorghum,81.8,43.2,51.6,2.45,20.4,8.3,12.0,37.3,Semi-Arid,Organic Compost
+Osmanabad,Black,Sorghum,95.3,41.3,44.8,3.58,13.9,7.5,14.2,33.2,Summer,Superphosphate
+Osmanabad,Red,Cotton,112.0,46.7,49.9,3.99,18.9,6.4,14.0,30.3,Dry,DAP
+Osmanabad,Red,Sorghum,112.0,57.0,49.1,3.27,10.2,6.1,12.5,36.8,Post-Monsoon,Urea
+Osmanabad,Red,Sorghum,95.3,59.3,45.7,3.61,10.5,6.2,9.7,34.5,Semi-Arid,Complex Fertilizer
+Osmanabad,Red,Cotton,143.0,65.5,56.2,4.56,28.4,5.6,18.6,32.7,Summer,DAP
+Osmanabad,Sandy,Cotton,167.7,50.3,69.5,2.41,25.6,7.4,11.0,36.1,Dry,NPK 19:19:19
+Osmanabad,Sandy,Sorghum,112.1,49.4,56.7,2.98,12.9,6.6,18.8,32.4,Post-Monsoon,Superphosphate
+Osmanabad,Sandy,Sorghum,116.2,49.7,50.6,3.02,11.7,6.8,18.0,31.0,Semi-Arid,DAP
+Osmanabad,Sandy,Sorghum,93.3,54.3,51.7,3.42,14.4,6.5,8.3,31.5,Summer,Ammonium Sulphate
+Palghar,Laterite,Rice,137.1,67.8,73.3,4.54,19.0,5.2,3.6,29.1,Heavy Rainfall,Urea
+Palghar,Laterite,Rice,143.1,72.4,63.9,3.82,12.1,5.8,4.8,27.3,Humid,DAP
+Palghar,Laterite,Rice,134.5,77.7,67.3,3.67,18.3,5.0,4.0,30.6,Monsoon,Urea
+Palghar,Laterite,Rice,121.9,84.9,62.9,3.12,17.7,5.8,6.6,31.5,Post-Monsoon,NPK 12:32:16
+Palghar,Red,Rice,114.9,67.4,56.4,3.83,17.1,7.0,4.4,26.6,Heavy Rainfall,DAP
+Palghar,Red,Rice,133.8,67.1,57.6,4.72,9.8,6.0,7.8,31.9,Humid,DAP
+Palghar,Red,Rice,121.8,68.8,58.4,5.03,16.4,6.3,7.7,26.8,Monsoon,NPK 12:32:16
+Palghar,Red,Rice,110.6,62.2,56.8,4.2,13.5,6.5,5.4,31.0,Post-Monsoon,DAP
+Palghar,Sandy,Rice,135.6,60.8,57.1,4.98,10.0,6.9,3.0,30.2,Heavy Rainfall,NPK 12:32:16
+Palghar,Sandy,Rice,129.5,60.4,68.6,3.02,9.1,6.6,6.3,28.1,Humid,NPK 12:32:16
+Palghar,Sandy,Rice,130.1,62.5,64.7,4.75,18.6,6.7,3.1,28.6,Monsoon,DAP
+Palghar,Sandy,Rice,137.6,56.7,66.9,2.99,19.2,6.0,3.5,28.1,Post-Monsoon,NPK 12:32:16
+Parbhani,Black,Sorghum,94.6,53.3,55.7,4.33,20.9,8.3,17.7,34.2,Dry,Organic Compost
+Parbhani,Black,Soybean,35.0,62.3,56.8,5.88,29.1,8.3,10.6,34.5,Post-Monsoon,DAP
+Parbhani,Black,Sorghum,81.2,49.4,55.5,4.38,21.0,7.9,9.3,35.0,Semi-Arid,Ammonium Sulphate
+Parbhani,Black,Cotton,88.1,44.0,45.1,3.33,24.8,8.0,9.1,36.8,Summer,Urea
+Parbhani,Red,Sorghum,94.1,51.1,49.4,3.47,20.2,5.6,11.8,34.0,Dry,DAP
+Parbhani,Red,Cotton,156.1,47.6,50.6,5.42,23.3,6.8,8.8,35.6,Post-Monsoon,NPK 19:19:19
+Parbhani,Red,Sorghum,101.2,54.3,48.5,5.66,14.8,6.4,12.1,37.1,Semi-Arid,Organic Compost
+Parbhani,Red,Sorghum,85.3,53.3,52.9,3.28,13.5,6.8,19.5,34.8,Summer,Superphosphate
+Parbhani,Sandy,Soybean,44.5,71.5,50.0,3.71,22.6,6.5,15.0,32.5,Post-Monsoon,NPK 12:32:16
+Parbhani,Sandy,Sorghum,101.9,56.8,57.0,4.51,12.6,6.6,11.5,29.5,Semi-Arid,Ammonium Sulphate
+Parbhani,Sandy,Bajra,85.5,36.0,38.6,2.82,11.4,6.2,15.5,30.3,Summer,NPK 12:32:16
+Pune,Alluvial,Sugarcane,270.0,85.8,145.2,8.8,32.2,6.6,10.4,31.4,Moderate Rainfall,Complex Fertilizer
+Pune,Alluvial,Sugarcane,227.7,88.2,166.4,10.69,30.6,7.0,5.2,28.1,Post-Monsoon,NPK 19:19:19
+Pune,Alluvial,Bajra,67.9,28.6,39.0,4.99,14.2,6.8,11.0,32.7,Pre-Monsoon,Urea
+Pune,Alluvial,Sugarcane,218.9,108.6,146.1,9.31,42.2,7.4,4.4,34.7,Winter,DAP
+Pune,Black,Sugarcane,191.5,105.4,191.9,6.14,26.3,7.4,3.4,34.9,Moderate Rainfall,DAP
+Pune,Black,Sugarcane,198.5,107.0,182.8,6.98,39.1,7.4,11.5,27.9,Post-Monsoon,Urea
+Pune,Black,Sugarcane,277.3,113.7,201.3,5.77,33.6,7.3,3.3,26.2,Pre-Monsoon,Complex Fertilizer
+Pune,Black,Sugarcane,201.9,95.8,237.6,6.99,29.9,7.0,11.8,28.5,Winter,NPK 19:19:19
+Pune,Red,Sugarcane,315.1,132.3,233.0,5.11,35.3,5.6,6.8,33.6,Moderate Rainfall,DAP
+Pune,Red,Sugarcane,304.9,102.0,197.9,10.22,36.7,6.1,3.5,28.6,Post-Monsoon,DAP
+Pune,Red,Bajra,73.0,45.3,36.2,4.93,13.9,5.7,10.4,26.3,Pre-Monsoon,Vermicompost
+Pune,Red,Sugarcane,260.8,108.3,206.5,10.14,38.4,5.6,4.8,32.7,Winter,DAP
+Raigad,Laterite,Rice,133.1,76.7,66.8,4.73,19.2,5.8,7.6,30.1,Heavy Rainfall,Urea
+Raigad,Laterite,Rice,132.9,77.9,59.2,5.93,14.2,6.3,3.3,29.4,Humid,DAP
+Raigad,Laterite,Rice,121.0,74.6,65.4,4.2,9.4,6.1,4.2,25.3,Monsoon,Urea
+Raigad,Laterite,Coconut,753.4,545.7,1597.7,8.91,44.7,5.5,5.6,25.8,Post-Monsoon,DAP
+Raigad,Red,Rice,109.5,63.4,66.1,4.5,20.0,6.9,2.5,31.5,Heavy Rainfall,Urea
+Raigad,Red,Rice,124.5,70.3,60.1,3.62,17.7,6.8,6.8,31.6,Humid,Urea
+Raigad,Red,Rice,117.2,70.1,58.8,4.89,11.2,5.7,6.1,30.2,Monsoon,Urea
+Raigad,Red,Rice,130.4,66.6,54.9,2.55,17.7,6.7,7.6,30.6,Post-Monsoon,NPK 12:32:16
+Raigad,Sandy,Rice,130.1,54.2,60.4,3.33,11.3,6.1,2.2,25.2,Heavy Rainfall,Urea
+Raigad,Sandy,Rice,135.8,57.3,68.7,4.47,10.3,6.5,4.9,29.2,Humid,Urea
+Raigad,Sandy,Rice,132.5,58.6,65.0,3.41,20.6,7.0,2.5,27.9,Monsoon,NPK 12:32:16
+Ratnagiri,Laterite,Rice,160.8,71.9,59.1,5.0,12.7,6.3,4.8,29.9,Heavy Rainfall,DAP
+Ratnagiri,Laterite,Rice,133.8,80.5,73.2,5.26,11.4,5.3,5.5,30.2,Humid,NPK 12:32:16
+Ratnagiri,Laterite,Rice,140.8,80.8,69.5,5.32,12.5,5.0,7.3,25.7,Monsoon,NPK 12:32:16
+Ratnagiri,Laterite,Rice,151.6,74.0,64.3,4.5,18.3,5.1,2.1,31.1,Post-Monsoon,DAP
+Ratnagiri,Red,Coconut,638.1,391.3,1466.7,11.97,33.8,6.4,3.1,28.8,Heavy Rainfall,DAP
+Ratnagiri,Red,Mango,209.9,122.5,126.4,10.92,25.9,6.9,2.7,27.2,Humid,Ammonium Sulphate
+Ratnagiri,Red,Rice,112.2,75.7,63.6,3.55,22.1,6.3,6.9,30.9,Monsoon,Urea
+Ratnagiri,Red,Mango,121.8,83.8,170.2,9.32,33.8,6.4,5.0,29.2,Post-Monsoon,Organic Compost
+Ratnagiri,Sandy,Mango,219.6,62.0,152.5,8.75,22.6,6.3,5.9,31.9,Heavy Rainfall,Urea
+Ratnagiri,Sandy,Coconut,656.0,434.3,1704.2,11.41,27.7,6.9,2.4,30.0,Humid,Urea
+Ratnagiri,Sandy,Coconut,596.7,327.0,1540.3,11.62,29.0,6.4,7.3,28.6,Monsoon,Ammonium Sulphate
+Ratnagiri,Sandy,Rice,126.6,60.6,57.7,4.04,11.0,6.2,3.0,25.5,Post-Monsoon,NPK 12:32:16
+Sangli,Alluvial,Sugarcane,253.4,87.9,193.0,4.78,33.7,6.9,8.8,33.5,Moderate Rainfall,Urea
+Sangli,Alluvial,Sugarcane,240.6,91.1,190.2,7.99,28.9,7.3,5.8,32.9,Post-Monsoon,Urea
+Sangli,Alluvial,Sugarcane,249.1,96.1,149.3,7.08,37.8,6.6,5.6,29.9,Pre-Monsoon,Urea
+Sangli,Alluvial,Sugarcane,231.3,81.5,175.7,6.58,34.3,6.5,8.5,29.4,Winter,DAP
+Sangli,Black,Sugarcane,214.9,104.2,205.1,6.82,27.7,7.5,11.4,34.7,Moderate Rainfall,Complex Fertilizer
+Sangli,Black,Sugarcane,198.5,79.5,221.3,6.8,33.2,7.1,11.9,30.6,Post-Monsoon,NPK 19:19:19
+Sangli,Black,Sugarcane,204.1,107.8,209.7,9.34,25.3,7.0,8.2,29.3,Pre-Monsoon,Urea
+Sangli,Black,Sugarcane,228.8,111.0,171.9,8.34,38.9,7.1,7.0,27.7,Winter,Urea
+Sangli,Red,Sugarcane,279.8,117.2,171.5,5.8,27.3,6.8,11.4,33.3,Moderate Rainfall,Complex Fertilizer
+Sangli,Red,Sugarcane,260.8,131.2,175.6,9.99,33.1,6.6,5.8,31.4,Post-Monsoon,NPK 19:19:19
+Sangli,Red,Sugarcane,249.0,96.5,221.4,4.88,30.2,5.5,6.7,30.2,Pre-Monsoon,Complex Fertilizer
+Sangli,Red,Sorghum,107.7,55.1,44.8,3.63,18.2,6.1,10.8,29.9,Winter,Urea
+Satara,Alluvial,Sugarcane,202.2,77.2,164.9,10.3,31.5,6.5,5.5,29.0,Moderate Rainfall,NPK 19:19:19
+Satara,Alluvial,Sugarcane,212.8,69.0,141.7,10.85,32.6,7.0,10.5,32.9,Post-Monsoon,NPK 19:19:19
+Satara,Alluvial,Sorghum,92.0,39.7,49.0,4.25,21.2,6.6,8.6,34.6,Pre-Monsoon,Complex Fertilizer
+Satara,Alluvial,Sugarcane,234.9,103.0,174.8,7.41,27.7,6.5,10.7,33.3,Winter,Complex Fertilizer
+Satara,Black,Sugarcane,251.8,127.2,180.9,8.87,34.0,7.3,8.5,26.4,Moderate Rainfall,NPK 19:19:19
+Satara,Black,Sugarcane,256.0,94.9,221.9,6.38,34.1,8.3,5.7,27.6,Post-Monsoon,Complex Fertilizer
+Satara,Black,Sugarcane,285.1,110.8,192.9,8.2,39.2,7.8,5.4,31.1,Pre-Monsoon,NPK 19:19:19
+Satara,Black,Sugarcane,208.9,96.0,221.4,5.82,27.8,7.1,9.7,30.4,Winter,Urea
+Satara,Red,Sorghum,96.0,53.1,47.3,4.22,15.2,6.9,6.3,27.9,Moderate Rainfall,Superphosphate
+Satara,Red,Sugarcane,294.1,129.0,204.5,8.25,45.2,5.8,10.5,28.3,Post-Monsoon,NPK 19:19:19
+Satara,Red,Sugarcane,243.7,106.1,211.6,9.26,43.3,6.8,3.7,30.1,Pre-Monsoon,Complex Fertilizer
+Satara,Red,Wheat,135.0,64.0,59.9,4.87,20.9,6.0,11.0,27.1,Winter,NPK 12:32:16
+Sindhudurg,Laterite,Coconut,591.7,471.6,1601.9,10.08,33.1,5.7,2.4,29.2,Heavy Rainfall,NPK 12:32:16
+Sindhudurg,Laterite,Rice,146.8,82.4,68.9,4.5,21.9,5.8,7.4,25.3,Humid,DAP
+Sindhudurg,Laterite,Coconut,755.3,429.1,1541.1,12.82,33.4,6.1,7.6,29.8,Monsoon,Superphosphate
+Sindhudurg,Laterite,Rice,153.1,72.8,62.6,4.09,20.3,6.5,5.5,30.7,Post-Monsoon,NPK 12:32:16
+Sindhudurg,Red,Coconut,663.2,461.4,1472.3,11.21,44.6,6.9,3.9,30.7,Heavy Rainfall,Vermicompost
+Sindhudurg,Red,Rice,118.8,70.7,65.2,2.34,10.8,5.8,6.9,30.9,Humid,DAP
+Sindhudurg,Red,Rice,116.5,73.2,59.8,3.61,16.1,5.9,7.5,31.7,Monsoon,NPK 12:32:16
+Sindhudurg,Red,Rice,120.7,65.1,55.6,5.94,17.5,6.3,6.0,31.6,Post-Monsoon,DAP
+Sindhudurg,Sandy,Rice,126.3,62.0,58.1,3.37,15.0,7.4,5.1,27.1,Heavy Rainfall,DAP
+Sindhudurg,Sandy,Coconut,671.9,375.2,1536.7,13.44,31.9,7.4,3.0,26.7,Humid,Organic Compost
+Sindhudurg,Sandy,Rice,124.2,65.3,68.1,4.82,17.0,6.5,7.1,31.3,Monsoon,Urea
+Sindhudurg,Sandy,Rice,138.9,54.2,74.7,3.39,20.9,6.7,3.5,29.1,Post-Monsoon,DAP
+Solapur,Black,Wheat,93.5,52.3,59.9,4.63,20.4,8.4,10.9,34.3,Moderate Rainfall,DAP
+Solapur,Black,Wheat,113.7,51.4,55.9,5.73,18.9,8.2,8.8,29.5,Post-Monsoon,DAP
+Solapur,Black,Wheat,112.3,51.5,61.3,5.22,22.2,7.2,11.9,27.8,Semi-Arid,DAP
+Solapur,Black,Sorghum,78.3,45.5,52.1,4.5,13.4,7.4,3.8,27.6,Winter,DAP
+Solapur,Red,Wheat,128.3,71.7,55.2,4.06,17.5,6.7,9.8,33.0,Moderate Rainfall,Urea
+Solapur,Red,Chickpea,22.6,47.3,30.5,5.12,19.5,6.1,11.8,30.3,Post-Monsoon,Urea
+Solapur,Red,Sorghum,103.1,50.4,54.1,2.51,12.2,6.9,3.1,32.4,Semi-Arid,Vermicompost
+Solapur,Red,Wheat,126.8,63.6,57.5,4.63,17.7,6.0,10.5,34.0,Winter,Urea
+Solapur,Sandy,Wheat,126.6,62.8,57.8,3.61,21.6,6.5,4.1,26.7,Moderate Rainfall,Urea
+Solapur,Sandy,Wheat,126.8,66.0,59.9,4.12,20.3,6.1,5.5,33.9,Post-Monsoon,NPK 12:32:16
+Solapur,Sandy,Bajra,96.6,35.9,43.9,2.64,15.0,7.2,9.3,30.3,Semi-Arid,NPK 12:32:16
+Solapur,Sandy,Wheat,128.6,60.9,61.5,4.84,19.6,6.5,8.2,33.5,Winter,NPK 12:32:16
+Thane,Laterite,Rice,144.2,78.6,62.0,5.37,15.2,5.5,2.2,28.8,Heavy Rainfall,Urea
+Thane,Laterite,Rice,123.6,66.5,64.5,3.48,22.3,5.1,6.8,25.4,Humid,Urea
+Thane,Laterite,Rice,124.9,72.2,64.2,2.8,12.5,5.6,5.6,26.9,Monsoon,Urea
+Thane,Laterite,Rice,149.1,78.7,64.9,3.21,15.9,6.5,7.4,28.2,Post-Monsoon,Urea
+Thane,Red,Rice,109.2,57.1,51.8,4.94,17.4,6.7,5.7,27.7,Heavy Rainfall,DAP
+Thane,Red,Rice,123.5,71.5,63.6,4.97,19.4,6.4,3.5,30.3,Humid,NPK 12:32:16
+Thane,Red,Rice,110.3,68.1,58.3,3.75,15.2,6.6,5.3,25.9,Monsoon,NPK 12:32:16
+Thane,Red,Rice,108.5,70.2,57.2,4.61,18.3,6.7,2.7,29.4,Post-Monsoon,DAP
+Thane,Sandy,Rice,129.2,63.3,65.6,3.38,13.1,6.7,5.7,27.6,Heavy Rainfall,NPK 12:32:16
+Thane,Sandy,Rice,136.6,58.9,56.9,3.15,21.5,6.3,3.1,26.3,Humid,DAP
+Thane,Sandy,Rice,129.8,62.9,72.6,2.99,10.4,7.3,4.1,27.8,Monsoon,Urea
+Thane,Sandy,Rice,155.1,57.5,72.7,4.48,19.6,6.6,3.3,27.8,Post-Monsoon,NPK 12:32:16
+Wardha,Black,Cotton,110.2,47.8,62.4,4.22,16.2,7.6,3.0,26.4,Moderate Rainfall,NPK 19:19:19
+Wardha,Black,Cotton,114.9,61.1,60.8,2.52,25.2,7.8,9.3,29.5,Monsoon,NPK 19:19:19
+Wardha,Black,Cotton,106.1,53.1,42.7,5.56,16.5,7.3,5.4,28.6,Post-Monsoon,Urea
+Wardha,Black,Pulses,21.0,38.9,39.0,4.17,15.1,8.3,8.8,32.6,Winter,NPK 12:32:16
+Wardha,Clay,Sorghum,78.8,47.2,44.5,3.97,19.8,6.8,6.2,28.4,Moderate Rainfall,Superphosphate
+Wardha,Clay,Pulses,26.2,55.3,25.6,5.19,24.9,7.8,7.4,30.5,Monsoon,Complex Fertilizer
+Wardha,Clay,Cotton,133.7,45.6,41.2,3.48,27.1,7.9,8.7,30.6,Post-Monsoon,Complex Fertilizer
+Wardha,Clay,Cotton,107.7,58.6,54.5,4.23,16.7,7.4,6.4,26.0,Winter,DAP
+Wardha,Red,Sorghum,108.8,53.1,50.6,4.33,18.7,5.8,8.2,31.4,Moderate Rainfall,Complex Fertilizer
+Wardha,Red,Cotton,155.6,66.4,53.8,4.87,27.5,5.9,3.4,31.2,Monsoon,Urea
+Wardha,Red,Cotton,151.9,68.0,64.6,3.55,22.8,7.0,11.6,29.2,Post-Monsoon,DAP
+Wardha,Red,Orange,116.6,84.6,97.8,2.71,33.6,6.7,9.2,34.5,Winter,MOP
+Washim,Black,Cotton,102.6,39.2,48.3,2.43,23.7,7.7,3.7,29.1,Moderate Rainfall,NPK 19:19:19
+Washim,Black,Cotton,127.1,43.8,64.4,5.26,17.5,8.2,4.3,30.0,Monsoon,DAP
+Washim,Black,Cotton,112.3,58.8,53.2,3.73,21.2,8.1,7.7,27.0,Post-Monsoon,DAP
+Washim,Black,Soybean,31.5,60.5,52.2,2.56,20.9,8.0,8.5,31.8,Winter,Superphosphate
+Washim,Clay,Pomegranate,106.1,46.1,115.7,8.31,25.3,7.1,9.9,28.0,Moderate Rainfall,Ammonium Sulphate
+Washim,Clay,Cotton,134.5,41.5,48.4,4.14,17.1,7.6,9.4,30.8,Monsoon,DAP
+Washim,Clay,Cotton,97.3,44.3,61.6,3.02,23.4,7.9,8.4,32.4,Post-Monsoon,Urea
+Washim,Clay,Cotton,114.6,58.2,44.3,3.95,22.3,6.8,7.5,26.1,Winter,Complex Fertilizer
+Washim,Red,Cotton,135.8,68.6,48.8,3.31,17.6,6.9,5.7,29.8,Monsoon,NPK 19:19:19
+Washim,Red,Banana,242.1,130.0,256.8,9.28,29.0,5.7,8.7,30.9,Post-Monsoon,Complex Fertilizer
+Washim,Red,Cotton,143.5,71.2,65.5,4.07,15.8,7.0,11.9,29.9,Winter,Complex Fertilizer
+Yavatmal,Black,Cotton,142.1,58.7,57.6,4.49,20.7,8.1,10.3,33.9,Moderate Rainfall,DAP
+Yavatmal,Black,Cotton,124.6,54.8,57.0,2.95,26.9,7.5,6.9,34.3,Monsoon,Complex Fertilizer
+Yavatmal,Black,Cotton,104.2,38.4,52.3,5.06,17.2,8.5,10.0,32.5,Post-Monsoon,Complex Fertilizer
+Yavatmal,Black,Cotton,109.3,42.6,50.8,2.93,24.9,8.4,8.4,33.2,Winter,Complex Fertilizer
+Yavatmal,Clay,Pigeon Pea,28.7,53.7,33.3,4.97,18.6,8.0,4.5,29.5,Moderate Rainfall,Urea
+Yavatmal,Clay,Cotton,106.8,50.2,45.2,3.6,24.6,7.0,7.6,31.0,Monsoon,NPK 19:19:19
+Yavatmal,Clay,Cotton,139.8,47.6,45.3,4.75,21.6,7.1,5.9,26.6,Post-Monsoon,DAP
+Yavatmal,Clay,Soybean,41.4,71.9,44.9,5.41,26.5,7.8,4.3,28.8,Winter,NPK 12:32:16
+Yavatmal,Red,Cotton,158.5,62.8,42.9,5.51,18.8,5.8,9.3,28.6,Moderate Rainfall,DAP
+Yavatmal,Red,Wheat,125.4,64.2,61.1,3.42,20.4,6.8,3.5,30.3,Monsoon,DAP
+Yavatmal,Red,Wheat,115.8,75.7,65.8,2.51,21.9,6.9,6.0,31.8,Post-Monsoon,Urea
+Yavatmal,Red,Pigeon Pea,26.1,65.3,35.2,4.54,17.1,6.9,8.1,31.1,Winter,Ammonium Sulphate
