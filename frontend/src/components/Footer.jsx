@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as RouterLink } from 'react-router-dom';
 import { Box, Container, Typography, Link, Grid } from '@mui/material';
 import { GitHub, LinkedIn, Email } from '@mui/icons-material';
 
@@ -31,16 +32,16 @@ const Footer = () => {
               Quick Links
             </Typography>
             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
-              <Link href="/" color="inherit" underline="hover">
+              <Link component={RouterLink} to="/" color="inherit" underline="hover" sx={{ cursor: 'pointer' }}>
                 Dashboard
               </Link>
-              <Link href="/crop-recommendation" color="inherit" underline="hover">
+              <Link component={RouterLink} to="/crop-recommendation" color="inherit" underline="hover" sx={{ cursor: 'pointer' }}>
                 Crop Recommendation
               </Link>
-              <Link href="/district-insights" color="inherit" underline="hover">
+              <Link component={RouterLink} to="/district-insights" color="inherit" underline="hover" sx={{ cursor: 'pointer' }}>
                 District Insights
               </Link>
-              <Link href="/crop-comparison" color="inherit" underline="hover">
+              <Link component={RouterLink} to="/crop-comparison" color="inherit" underline="hover" sx={{ cursor: 'pointer' }}>
                 Crop Comparison
               </Link>
             </Box>
