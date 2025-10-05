@@ -38,6 +38,9 @@ const Footer = () => {
               <Link component={RouterLink} to="/crop-recommendation" color="inherit" underline="hover" sx={{ cursor: 'pointer' }}>
                 Crop Recommendation
               </Link>
+              <Link component={RouterLink} to="/nutrient-analysis" color="inherit" underline="hover" sx={{ cursor: 'pointer' }}>
+                Nutrient Analysis
+              </Link>
               <Link component={RouterLink} to="/district-insights" color="inherit" underline="hover" sx={{ cursor: 'pointer' }}>
                 District Insights
               </Link>

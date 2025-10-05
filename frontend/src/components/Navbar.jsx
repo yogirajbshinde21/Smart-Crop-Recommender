@@ -33,7 +33,6 @@ const menuItems = [
   { text: 'Dashboard', icon: <DashboardIcon />, path: '/' },
   { text: 'Crop Recommendation', icon: <AgricultureIcon />, path: '/crop-recommendation' },
   { text: 'Nutrient Analysis', icon: <ScienceIcon />, path: '/nutrient-analysis' },
-  { text: 'Water Quality', icon: <WaterDropIcon />, path: '/water-quality' },
   { text: 'Crop Comparison', icon: <CompareArrowsIcon />, path: '/crop-comparison' },
   { text: 'District Insights', icon: <LocationOnIcon />, path: '/district-insights' },
   { text: 'Weather Planning', icon: <CloudIcon />, path: '/weather-planning' },

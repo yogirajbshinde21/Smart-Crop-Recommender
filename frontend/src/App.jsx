@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 import Dashboard from './pages/Dashboard';
 import CropRecommendation from './pages/CropRecommendation';
 import NutrientAnalysis from './pages/NutrientAnalysis';
-import WaterQuality from './pages/WaterQuality';
 import CropComparison from './pages/CropComparison';
 import DistrictInsights from './pages/DistrictInsights';
 import WeatherPlanning from './pages/WeatherPlanning';
@@ -21,7 +20,6 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/crop-recommendation" element={<CropRecommendation />} />
           <Route path="/nutrient-analysis" element={<NutrientAnalysis />} />
-          <Route path="/water-quality" element={<WaterQuality />} />
           <Route path="/crop-comparison" element={<CropComparison />} />
           <Route path="/district-insights" element={<DistrictInsights />} />
           <Route path="/district-insights/:district" element={<DistrictInsights />} />
