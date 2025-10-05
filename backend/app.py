@@ -23,9 +23,15 @@ from validation import (
 
 app = Flask(__name__)
 
-# Production-ready CORS
-cors_origins = os.environ.get('CORS_ORIGINS', 'http://localhost:3000').split(',')
-CORS(app, resources={r"/*": {"origins": cors_origins}})
+# Production-ready CORS - Allow multiple origins
+cors_origins = os.environ.get('CORS_ORIGINS', 'http://localhost:3000,https://smart-farmer-frontend.onrender.com').split(',')
+CORS(app, resources={
+    r"/*": {
+        "origins": cors_origins,
+        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        "allow_headers": ["Content-Type", "Authorization"]
+    }
+})
 
 # Global variables for models and processors
 models = {}
@@ -827,6 +833,10 @@ def get_statistics():
             'success': False,
             'error': str(e)
         }), 500
+
+
+# Load models when app starts
+load_models()
 
 
 if __name__ == '__main__':
