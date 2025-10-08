@@ -20,6 +20,12 @@ from validation import (
     validate_prediction, get_region, filter_invalid_crops,
     get_alternative_crops, validate_nutrients, get_region_characteristics
 )
+from utils.crop_prediction_calibrator import (
+    calibrate_crop_predictions, calibrate_comparison_results
+)
+from utils.crop_suitability_validator import (
+    validate_crop_suitability, get_zone_from_district
+)
 
 app = Flask(__name__)
 
@@ -717,25 +723,114 @@ def compare_crops():
                 }
             })
         
-        # Determine best crop
-        best_crop = max(comparison_data, key=lambda x: x['economics']['roi_percentage'])
+        # =====================================================================
+        # APPLY POST-PROCESSING CALIBRATION
+        # =====================================================================
+        # Calibrate predictions to realistic agricultural values
+        # This does NOT modify the trained model or dataset
+        # Debug logging is enabled in development mode
+        
+        calibrated_results = calibrate_comparison_results(
+            comparison_data, 
+            district, 
+            debug=DEBUG
+        )
+        
+        # =====================================================================
+        # APPLY CROP SUITABILITY VALIDATION (NEW)
+        # =====================================================================
+        # Validate crop suitability for the district/zone
+        # Adds contextual warnings and recommendations
+        # This is a post-processing layer that does NOT affect ML predictions
+        
+        for crop in calibrated_results['comparison']:
+            crop_name = crop['crop_name']
+            
+            # Validate suitability
+            suitability = validate_crop_suitability(
+                crop_name=crop_name,
+                district=district,
+                zone=zone,
+                debug=DEBUG
+            )
+            
+            # Add suitability information to crop result
+            crop['suitability'] = {
+                'is_traditional': suitability['is_traditional'],
+                'suitability_score': suitability['suitability_score'],
+                'warning_level': suitability['warning_level'],
+                'warning_message': suitability['warning_message'],
+                'recommendations': suitability['recommendations'],
+                'risk_factors': suitability['risk_factors'],
+                'success_conditions': suitability['success_conditions'],
+                'irrigation_requirement': suitability['irrigation_requirement'],
+                'irrigation_compatibility': suitability['irrigation_compatibility']
+            }
+            
+            # Add zone characteristics for reference
+            if 'zone_characteristics' in suitability:
+                crop['zone_info'] = suitability['zone_characteristics']
+        
+        # =====================================================================
+        # PREPARE RESPONSE WITH ALL VALIDATIONS
+        # =====================================================================
+        
+        # Collect all warnings (from both calibration and suitability validation)
+        all_warnings = []
+        high_risk_crops = []
+        
+        for crop in calibrated_results['comparison']:
+            crop_name = crop['crop_name']
+            
+            # Add zone validation warning if exists (from calibration)
+            if crop.get('zone_validation', {}).get('warning'):
+                all_warnings.append({
+                    'crop': crop_name,
+                    'type': 'zone_validation',
+                    'warning': crop['zone_validation']['warning']
+                })
+            
+            # Add suitability warnings
+            if crop['suitability']['warning_level'] in ['high_risk', 'caution']:
+                all_warnings.append({
+                    'crop': crop_name,
+                    'type': 'suitability',
+                    'level': crop['suitability']['warning_level'],
+                    'message': crop['suitability']['warning_message'],
+                    'recommendations': crop['suitability']['recommendations']
+                })
+                
+                if crop['suitability']['warning_level'] == 'high_risk':
+                    high_risk_crops.append(crop_name)
+        
+        response_data = {
+            'comparison': calibrated_results['comparison'],
+            'recommendation': calibrated_results['recommendation'],
+            'input': {
+                'district': district,
+                'soil_type': soil_type,
+                'weather': weather,
+                'zone': zone
+            },
+            'calibration_applied': True,
+            'calibration_note': 'Values calibrated for realistic agricultural context based on Maharashtra research data',
+            'suitability_validation_applied': True
+        }
+        
+        # Add warnings if any
+        if all_warnings:
+            response_data['warnings'] = all_warnings
+            
+        # Add summary if high-risk crops detected
+        if high_risk_crops:
+            response_data['high_risk_alert'] = {
+                'crops': high_risk_crops,
+                'message': f"⚠️ {len(high_risk_crops)} crop(s) identified as HIGH RISK for {district}. Review suitability warnings before proceeding."
+            }
         
         return jsonify({
             'success': True,
-            'data': {
-                'comparison': comparison_data,
-                'recommendation': {
-                    'best_crop': best_crop['crop_name'],
-                    'reason': f"Highest ROI of {best_crop['economics']['roi_percentage']:.2f}%",
-                    'roi': best_crop['economics']['roi_percentage']
-                },
-                'input': {
-                    'district': district,
-                    'soil_type': soil_type,
-                    'weather': weather,
-                    'zone': zone
-                }
-            }
+            'data': response_data
         })
         
     except Exception as e:

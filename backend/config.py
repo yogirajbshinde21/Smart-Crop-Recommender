@@ -155,6 +155,130 @@ EXPECTED_YIELDS = {
     'Coconut': 100
 }
 
+# ============================================================================
+# CROP SUITABILITY AND DISTRICT-WISE TRADITIONAL CROPS
+# ============================================================================
+# Based on Maharashtra Krishi Vibhag (Agricultural Department) data
+# This data is used for post-prediction validation and warnings only
+# Does NOT affect ML model predictions or training
+
+# District-wise traditional crops
+DISTRICT_TRADITIONAL_CROPS = {
+    # Konkan Zone - High rainfall coastal region
+    'Thane': ['Rice', 'Coconut', 'Mango', 'Vegetables'],
+    'Palghar': ['Rice', 'Coconut', 'Mango'],
+    'Raigad': ['Rice', 'Coconut', 'Mango'],
+    'Ratnagiri': ['Rice', 'Coconut', 'Mango'],
+    'Sindhudurg': ['Rice', 'Coconut', 'Mango'],
+    'Mumbai City': ['Vegetables'],
+    'Mumbai Suburban': ['Vegetables'],
+    
+    # Vidarbha Zone - Cotton belt
+    'Nagpur': ['Cotton', 'Soybean', 'Pigeon Pea', 'Rice'],
+    'Amravati': ['Cotton', 'Soybean', 'Wheat', 'Chickpea', 'Pigeon Pea'],
+    'Akola': ['Cotton', 'Soybean', 'Pigeon Pea', 'Wheat'],
+    'Yavatmal': ['Cotton', 'Soybean', 'Pigeon Pea', 'Sorghum'],
+    'Buldhana': ['Cotton', 'Soybean', 'Pearl Millet', 'Wheat', 'Banana'],
+    'Washim': ['Cotton', 'Soybean', 'Pigeon Pea', 'Pomegranate'],
+    'Wardha': ['Cotton', 'Sorghum', 'Wheat', 'Pigeon Pea'],
+    'Chandrapur': ['Cotton', 'Soybean', 'Rice', 'Pigeon Pea'],
+    'Bhandara': ['Rice', 'Soybean', 'Pigeon Pea', 'Wheat'],
+    'Gadchiroli': ['Rice', 'Pigeon Pea', 'Maize'],
+    'Gondia': ['Rice', 'Soybean', 'Pigeon Pea'],
+    
+    # Marathwada Zone - Drought-prone, low irrigation
+    'Aurangabad': ['Sorghum', 'Pearl Millet', 'Cotton', 'Pigeon Pea', 'Chickpea'],
+    'Jalna': ['Sorghum', 'Cotton', 'Pigeon Pea', 'Wheat'],
+    'Beed': ['Sorghum', 'Pearl Millet', 'Cotton', 'Pigeon Pea', 'Chickpea'],
+    'Latur': ['Sorghum', 'Pearl Millet', 'Pigeon Pea', 'Chickpea'],
+    'Osmanabad': ['Sorghum', 'Pearl Millet', 'Cotton', 'Pigeon Pea'],
+    'Nanded': ['Sorghum', 'Cotton', 'Pigeon Pea', 'Rice', 'Wheat'],
+    'Parbhani': ['Cotton', 'Sorghum', 'Pigeon Pea', 'Chickpea'],
+    'Hingoli': ['Cotton', 'Sorghum', 'Pearl Millet', 'Pigeon Pea'],
+    
+    # Western Maharashtra - Irrigation available, high-value crops
+    'Pune': ['Sugarcane', 'Grapes', 'Wheat', 'Vegetables', 'Pomegranate'],
+    'Satara': ['Sugarcane', 'Grapes', 'Pomegranate', 'Wheat'],
+    'Sangli': ['Sugarcane', 'Grapes', 'Wheat'],
+    'Kolhapur': ['Sugarcane', 'Rice', 'Wheat', 'Vegetables'],
+    'Solapur': ['Sugarcane', 'Cotton', 'Wheat', 'Pomegranate', 'Sorghum'],
+    
+    # North Maharashtra
+    'Nashik': ['Grapes', 'Wheat', 'Cotton', 'Banana'],
+    'Dhule': ['Cotton', 'Sorghum', 'Wheat', 'Banana'],
+    'Jalgaon': ['Cotton', 'Banana', 'Wheat', 'Sorghum'],
+    'Nandurbar': ['Cotton', 'Sorghum', 'Maize', 'Wheat'],
+    'Ahmednagar': ['Sugarcane', 'Sorghum', 'Wheat', 'Pomegranate']
+}
+
+# Crop irrigation requirements
+CROP_IRRIGATION_NEEDS = {
+    'Grapes': 'High',
+    'Sugarcane': 'Very High',
+    'Banana': 'High',
+    'Pomegranate': 'Medium',
+    'Rice': 'Very High',
+    'Cotton': 'Medium',
+    'Soybean': 'Low',
+    'Sorghum': 'Low',
+    'Pearl Millet': 'Low',
+    'Wheat': 'Medium',
+    'Chickpea': 'Low',
+    'Pigeon Pea': 'Low',
+    'Maize': 'Medium',
+    'Sunflower': 'Medium',
+    'Groundnut': 'Medium',
+    'Coconut': 'Medium',
+    'Mango': 'Medium',
+    'Green Gram': 'Low',
+    'Black Gram': 'Low',
+    'Vegetables': 'Medium'
+}
+
+# Zone-specific constraints and risk factors
+ZONE_CONSTRAINTS = {
+    'Marathwada': {
+        'water_availability': 'Low',
+        'irrigation_coverage': '15-20%',
+        'rainfall': '600-900mm',
+        'suitable_crops': ['Sorghum', 'Pearl Millet', 'Cotton', 'Pigeon Pea', 'Chickpea'],
+        'challenging_crops': ['Grapes', 'Sugarcane', 'Banana', 'Rice'],
+        'risk_factors': ['Drought-prone region', 'Limited irrigation infrastructure', 'Low rainfall', 'Groundwater depletion']
+    },
+    'Konkan': {
+        'water_availability': 'High',
+        'irrigation_coverage': 'Good',
+        'rainfall': '2000-4000mm',
+        'suitable_crops': ['Rice', 'Coconut', 'Mango', 'Cashew', 'Spices'],
+        'challenging_crops': ['Wheat', 'Sorghum', 'Cotton'],
+        'risk_factors': ['High rainfall damage to crops', 'Coastal salinity', 'Pest pressure from humidity']
+    },
+    'Vidarbha': {
+        'water_availability': 'Medium',
+        'irrigation_coverage': '30-40%',
+        'rainfall': '800-1200mm',
+        'suitable_crops': ['Cotton', 'Soybean', 'Pigeon Pea', 'Sorghum'],
+        'challenging_crops': ['Sugarcane', 'Grapes', 'Banana'],
+        'risk_factors': ['Erratic rainfall patterns', 'Cotton pest pressure', 'Market price volatility']
+    },
+    'Western_Maharashtra': {
+        'water_availability': 'High',
+        'irrigation_coverage': '50-70%',
+        'rainfall': '600-1200mm',
+        'suitable_crops': ['Sugarcane', 'Grapes', 'Pomegranate', 'Wheat'],
+        'challenging_crops': ['Rice', 'Sorghum'],
+        'risk_factors': ['Water distribution conflicts', 'High input costs', 'Market competition']
+    },
+    'North_Maharashtra': {
+        'water_availability': 'Medium',
+        'irrigation_coverage': '40-50%',
+        'rainfall': '700-1000mm',
+        'suitable_crops': ['Grapes', 'Cotton', 'Banana', 'Wheat'],
+        'challenging_crops': ['Rice', 'Sugarcane'],
+        'risk_factors': ['Seasonal water stress', 'Temperature fluctuations', 'Market distance']
+    }
+}
+
 # Flask configuration
 DEBUG = os.environ.get('FLASK_ENV') != 'production'
 PORT = int(os.environ.get('PORT', 5000))
